@@ -1,0 +1,61 @@
+* { 
+   margin: 0px;
+   padding: 0px; }
+
+
+nav {
+ text-align: center;
+ width: 100%;
+ background-color: lightgreen;
+
+}
+nav a{ 
+	     
+	     font-size: 25px;
+	      font-family: serif;
+	      padding: 20px;
+	      color: green;
+	      font-style: italic;
+	      text-decoration: none;
+	      transition: 0.5s;
+	      
+
+}
+nav a:hover{
+	color: white;
+	width: 100%;
+}
+
+h3 { color: black; }
+.second {    
+          
+           font: 15px;
+           font-family: serif;
+           font-size: 20px;
+           font-style: italic;
+           color: gray;
+
+
+
+}
+.second {  
+	       
+           font: 15px;
+           font-family: serif;
+           font-size: 20px;
+           font-style: italic;
+           color: blue;
+}
+ 
+
+@media only screen and (min-width: 300px) {
+    .first {
+     display: none;
+      
+             
+    }
+    @media only screen and (min-width: 524px){
+  .first{
+    display: block;
+  }
+ }
